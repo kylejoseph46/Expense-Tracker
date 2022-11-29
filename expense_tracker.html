@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./expense_tracker.css">
+  <title>Expense Tracker</title>
+  <meta charset="UTF-8">
+</head>
+<script src="./expense_tracker.js" async></script>
+
+<body>
+  <div id="header">
+    <h1>Expense Tracker</h1>
+  </div>
+  <div id="form_related">
+    <form>
+      <label for="input1">Name:</label>
+      <input id="input1" type="text">
+      <label for="input2">Date:</label>
+      <input id="input2" type="text">
+      <label for="input3">Amount:</label>
+      <input id="input3" type="text">
+    </form>
+  </div>
+  <div id="button_div">
+    <button id="button">Add Expense</button>
+  </div>
+  <div id="table_div">
+    <table>
+      <thead>
+        <th scope="row">Name</th>
+        <th scope="row">Date</th>
+        <th scope="row">Amount</th>
+      </thead>
+      <tbody id="to_insert">
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form_related {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#to_insert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#table_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
